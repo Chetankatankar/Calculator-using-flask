@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="static/style.css"
+    <title></title>
+</head>
+<body>
+    <div class="container">
+    <h2>Calculator</h2>
+    <hr/>
+    <form action = "/getdata", method="post">
+        <p class="ml-10">
+            <lable>Num 1 :</lable>
+            <input type="text" name = "num1">
+        </p>
+        <p class="ml-10">
+            <lable>Num 2 :</lable>
+            <input type="text" name = "num2">
+        </p>
+        <p class="tcenter">
+            <select name = "op">
+                <option value="1">Add</option>
+                <option value="2">Sub</option>
+                <option value="3">Div</option>
+                <option value="4">Mul</option>
+            </select>
+        </p>
+        <p class="tcenter"><input type="submit" value ="Calculate" class="btn">
+        </p>
+    </form>
+    </div>   
+</body>
+</html>
