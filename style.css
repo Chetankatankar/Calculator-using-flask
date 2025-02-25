@@ -1,0 +1,33 @@
+body{
+    background-color: yellow;
+}
+.container {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 5px;
+}
+.container h2{
+    text-align: center;
+    color: black;
+}
+.tcenter{ 
+    text-align: center;
+    color: black;
+}
+.container .btn{
+    height: 25px;
+    width: 200px;
+    padding: 1px;
+    border: 1px; solid #B3D8A8;
+    background-color: pink;
+    color: 626F47;
+}
+.container .btn:hover{
+    color: black;
+    background-color: white;
+}
+.ml-10{
+    margin-left: 30px;
+    color: black;
+}
